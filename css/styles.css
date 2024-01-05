@@ -1,0 +1,37 @@
+* {
+    margin: 10px;
+}
+
+section {
+    display: flex;
+}
+
+h2.title {
+    text-align: center;
+    color: blueviolet;
+    border: 2px solid;
+}
+
+nav > ul {
+    text-align: center;
+}
+
+nav > ul > li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+nav > ul> li > a {
+    text-decoration: none;
+}
+
+li > a:hover {
+    background-color: linen;
+    text-decoration: underline;
+}
+
+div.image {
+    width: 50%;
+}
